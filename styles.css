@@ -70,7 +70,7 @@ body {
 }
 .home-hero h1 {
     font-size: clamp(32px, 8vw, 56px);
-    margin-top: 120px;
+    margin-top: 42px;
 }
 .home-hero .subtitle {
     font-size: clamp(16px, 4vw, 22px);
