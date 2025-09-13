@@ -3,11 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Doação</title>
+    <title>Brasil em Foco — Doação</title>
     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
+
+    <script>
+        // O navegador irá guardar uma informação de que a pessoa já visitou.
+        // Se a informação não existir, ele redireciona para o index.
+        if (!localStorage.getItem('visitedSite')) {
+            localStorage.setItem('visitedSite', 'true');
+            window.location.replace("index.html");
+        }
+    </script>
 
     <meta property="og:title" content="Doação" />
     <meta property="og:description" content="Conheça o projeto de solidariedade da nossa turma." />
@@ -24,7 +33,7 @@
         <section class="place-card wide-card" id="doacao-info">
             <div class="content-box">
                 <h2>Doações</h2>
-                <p>A sala do 2 ano B se juntou em uma atitude solidária, juntando a empatia desenvolvida pelo geral do ano, e particularmente o da sala. A reciclagem foi um dos meios que a sala juntou o útil de preservar o meio ambiente e separar os plásticos do lixo de cada aluno, com o agradável de entrar em contato com um instituto tão bem preparado como o: Instituto Cássio Xavier de Azevedo Filho, que deu suporte para a sala e transformou as tampinhas em possibilidades de pessoas de baixa renda ou situação vulnerável acessarem cadeiras de rodas e acessórios médicos necessários.</p>
+                <p>A sala do 2º ano B se uniu em uma atitude solidária, unindo a empatia desenvolvida por toda a turma. A reciclagem foi um dos meios que a sala encontrou para preservar o meio ambiente, separando os plásticos do lixo de cada aluno, e teve o prazer de entrar em contato com um instituto tão bem preparado como o Instituto Cássio Xavier de Azevedo Filho, que deu suporte à turma e transformou as tampinhas em possibilidades para pessoas de baixa renda ou em situação vulnerável, que agora podem acessar cadeiras de rodas e acessórios médicos necessários.</p>
                 
                 <div class="video-container vertical-video">
                     <video controls>
